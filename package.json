@@ -4,7 +4,19 @@
   "main": "index.js",
   "author": "Douglas Morato <dmoratos@gmail.com>",
   "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "standart"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre_commit": "lint_staged"
+    }
+  },
   "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.6",
     "standart": "^6.1.0"
   }
 }
