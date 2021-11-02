@@ -21,8 +21,8 @@
     ]
   },
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest",
+    "test": "jest --watchAll",
+    "test:staged": "jest ",
     "lintstaged": "yarn lint-staged"
   },
   "dependencies": {}
