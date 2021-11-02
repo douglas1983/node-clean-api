@@ -10,14 +10,19 @@
     "lint-staged": "^11.2.6",
     "standart": "^6.1.0"
   },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
   "lint-staged": {
     "*.js": [
-      "standart --fix",
-      "git add"
+      "yarn test:staged"
     ]
   },
   "scripts": {
     "test": "jest",
+    "test:staged": "jest",
     "lintstaged": "yarn lint-staged"
   },
   "dependencies": {}
