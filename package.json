@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Douglas Morato <dmoratos@gmail.com>",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "husky": "^7.0.0",
     "jest": "^27.3.1",
