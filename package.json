@@ -17,7 +17,9 @@
   },
   "lint-staged": {
     "*.js": [
-      "yarn test:staged"
+      "standard",
+      "yarn test:staged",
+      "git add"
     ]
   },
   "scripts": {
